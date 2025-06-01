@@ -14,3 +14,17 @@ data:
 	person2:
 	    video1
 	    ....
+    train:
+        person1:
+	    video1
+	    ....
+	prson2:
+	    video1
+	    ....
+    test:
+	person1:
+	    video1
+	    ....
+	person2:
+	    video1
+	    ....
