@@ -1,0 +1,18 @@
+Модель распознования лиц.
+В папке data/raw_train, data/raw_test в отдельную папку надо загрузить видео с лицом.
+Отдельная папка для каждого человека.
+data:
+    raw_train:
+        person1:
+	    video1
+	    ....
+	prson2:
+	    video1
+	    ....
+    raw_test:
+	person1:
+	    video1
+	    ....
+	person2:
+	    video1
+	    ....
