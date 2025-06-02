@@ -12,7 +12,7 @@ from text_base import TextBase
 # Состояния для ConversationHandler
 ASK_QUESTION, ASK_ANSWER = range(2)
 ADMINS = [
-    867471408 # Я
+    0000000 # Я
     ]
 
 text_base = TextBase()
@@ -87,7 +87,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE):
     return ConversationHandler.END
 
 def main():
-    application = ApplicationBuilder().token("6618448140:AAGh8J1Y_CbBBqRKNNCJT4jk-Qyt5GuNV5Q").build()
+    application = ApplicationBuilder().token("").build()
 
     # Настройка обработчиков
     conv_handler = ConversationHandler(
